@@ -1,5 +1,5 @@
 how to compile:
 
-gcc -c -fPIC plus.c -o plus.o
+gcc -c -fPIC example.c -o example.o
 
-gcc plus.o -shared -o plus.so
+gcc example.o -shared -o example.so

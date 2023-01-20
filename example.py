@@ -1,7 +1,7 @@
 import ctypes
 
 # Load the .so library
-my_lib = ctypes.CDLL('./path/to/library.so')
+my_lib = ctypes.CDLL('./example.so')
 
 # Declare the function prototype
 my_lib.plus.argtypes = [ctypes.POINTER(ctypes.c_double), ctypes.POINTER(ctypes.c_double), ctypes.POINTER(ctypes.c_double)]
