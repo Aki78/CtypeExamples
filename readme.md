@@ -15,5 +15,9 @@ gcc array_example.o -shared -o array_example.so
 
 for the rust example:
 
-rustc --crate-type cdylib -o cfile.so cfile.rs
+rustc --crate-type cdylib -o array_example.so array_example.rs
  
+or in Haskell
+
+ ghc -shared -o array_example.so array_example.hs
+
